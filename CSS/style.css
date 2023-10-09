@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Paytone+One&family=Sintony&display=swap');
+
+body {
+    background-color: #213363;
+    font-family: 'Sintony', sans-serif;
+}
+
+.navbar {
+    background-color: #17594A;
+    overflow: hidden;
+    border: 2px solid #8EAC50;
+    border-radius: 15px;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: black;
+    background-color: #D3D04F;
+}
+
+.images {
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #263b4a;
+    border-radius: 10px;
+}
+
+.navbar2 {
+    background-color: #17594A;
+    top: 50px;
+    overflow: hidden;
+    border: 2px solid #8EAC50;
+    border-radius: 15px;
+}
+.navbar2 a {
+    float: left;
+    display: block;
+    color: azure;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: wavy;
+}
+.navbar2 a:hover {
+    background-color: #D3D04F;
+    color: black;
+}
+
+.abautUs {
+    border-radius: 20px;
+    top: 50px;
+    left: 50px;
+    border: 2px solid #17594A;
+    width: 70%;
+    height: 40%;
+    background-color: transparent;
+}
+
+.abautUs p {
+    display: block;
+    color: white;
+    text-align: left;
+    text-decoration: double;
+    padding: 15px 20px;
+}
+
+.abautUs h1 {
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 20px 30px;
+    text-shadow: -1px 0 rgb(33, 30, 30), 
+    0 1px rgb(33, 30, 30), 1px 0 rgb(33, 30, 30), 
+    0 -1px rgb(33, 30, 30);
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 500;
+}
+
+.abautUs h3 {
+    display: block;
+    text-align: left;
+    color: white;
+    padding: 11px 20px;
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 500;
+}
+
+.abautUs h4 {
+    display: block;
+    text-align: left;
+    color: white;
+    padding: 11px 20px;
+    font-family: 'Autour One', cursive;
+}
+
+.nombre_yuma {
+    background-color: #8EAC50;
+    border-radius: 15px;
+    display: flex;
+    overflow: hidden;
+    border: 2px solid #17594A;
+    width: 425px;
+    height: 560px;
+    float: right;
+    top: 100px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px 0px 5px 5px;
+}
+.nombre_yuma h2 {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: overline;
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+.nombre_yuma h2:hover {
+    color: black;
+    background-color: #D3D04F;
+}
+.nombre_yuma p {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: double;
+}
+
+.images img {
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+.img1 {
+    width: 300px;
+    height: 200px;
+}
+.img2 {
+    width: 300px;
+    height: 200px;
+}
+.img3 {
+    width: 300px;
+    height: 200px;
+}
+.img4 {
+    width: 300px;
+    height: 200px;
+}
+.img5 {
+    width: 300px;
+    height: 200px;
+}
+
+#carrusel-caja {
+    -moz-animation: automatizacion 15s infinite linear;
+    -o-animation: automatizacion 15s infinite linear;
+    -webkit-animation: automatizacion 15s infinite linear;
+    animation: automatizacion 15s infinite linear;
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75s ease;
+    transition: all 0.75s ease;
+    height: 200px;
+    width: 500%;
+}
+#carrusel-contenido {
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: right;
+}
+.imagenes{
+    height: 200px;
+    width: 45%;
+    border-radius: 30px;
+}
+.carrusel-elemento {
+    float: right;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@-moz-keyframes automatizacion {
+    0% {
+    margin-left: 0;
+    }
+    15% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: -100%;
+    }
+    35% {
+        margin-left: -100%;
+    }
+    40% {
+        margin-left: -200%;
+    }
+    55% {
+        margin-left: -200%;
+    }
+    60% {
+        margin-left: -300%;
+    }
+    
+    75% {
+        margin-left: -300%;
+    }
+
+    80% {
+        margin-left: -400%;
+    }
+
+    95% {
+        margin-left: -400%;
+    }
+    
+    100% {
+        margin-left: 0;
+    }
+}
+@-webkit-keyframes automatizacion {
+    0% {
+        margin-left: 0;
+    }
+    15% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: -100%;
+    }
+    35% {
+        margin-left: -100%;
+    }
+    40% {
+        margin-left: -200%;
+    }
+    55% {
+        margin-left: -200%;
+    }
+    60% {
+        margin-left: -300%;
+    }
+        
+    75% {
+        margin-left: -300%;
+    }
+    
+    80% {
+        margin-left: -400%;
+    }
+    
+    95% {
+        margin-left: -400%;
+    }
+        
+    100% {
+        margin-left: 0;
+    }
+}
+@keyframes automatizacion {
+    0% {
+        margin-left: 0;
+    }
+    15% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: -100%;
+    }
+    35% {
+        margin-left: -100%;
+    }
+    40% {
+        margin-left: -200%;
+    }
+    55% {
+        margin-left: -200%;
+    }
+    60% {
+        margin-left: -300%;
+    }
+        
+    75% {
+        margin-left: -300%;
+    }
+    
+    80% {
+        margin-left: -400%;
+    }
+    
+    95% {
+        margin-left: -400%;
+    }
+        
+    100% {
+        margin-left: 0;
+    }
+}
