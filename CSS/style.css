@@ -1,27 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Paytone+One&family=Sintony&display=swap');
 
 body {
-    background-color: #213363;
+    background-color: #FFFFDD;
     font-family: 'Sintony', sans-serif;
 }
 
 .navbar {
-    background-color: #17594A;
+    background-color: rgb(162, 197, 121, 0.3);
     overflow: hidden;
-    border: 2px solid #8EAC50;
+    border: 2px solid transparent;
     border-radius: 15px;
 }
 .navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #016A70;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 .navbar a:hover {
     color: black;
-    background-color: #D3D04F;
+    background-color: rgb(210, 222, 50, 0.5);
 }
 
 .images {
@@ -29,27 +29,27 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid #263b4a;
+    border: 3px solid transparent;
     border-radius: 10px;
 }
 
 .navbar2 {
-    background-color: #17594A;
+    background-color: rgb(162, 197, 121, 0.3);
     top: 50px;
     overflow: hidden;
-    border: 2px solid #8EAC50;
+    border: 2px solid transparent;
     border-radius: 15px;
 }
 .navbar2 a {
     float: left;
     display: block;
-    color: azure;
+    color: #016A70;
     text-align: center;
     padding: 16px 18px;
     text-decoration: wavy;
 }
 .navbar2 a:hover {
-    background-color: #D3D04F;
+    background-color: rgb(210, 222, 50, 0.5);
     color: black;
 }
 
@@ -57,15 +57,16 @@ body {
     border-radius: 20px;
     top: 50px;
     left: 50px;
-    border: 2px solid #17594A;
+    border: 2px solid transparent;
     width: 70%;
     height: 40%;
-    background-color: transparent;
+    background-color: rgb(1, 106, 112, 0.3);
+    margin-top: 10px;
 }
 
 .abautUs p {
     display: block;
-    color: white;
+    color: #016A70;
     text-align: left;
     text-decoration: double;
     padding: 15px 20px;
@@ -90,6 +91,9 @@ body {
     padding: 11px 20px;
     font-family: 'Paytone One', sans-serif;
     font-weight: 500;
+    text-shadow: -1px 0 rgb(33, 30, 30), 
+    0 1px rgb(33, 30, 30), 1px 0 rgb(33, 30, 30), 
+    0 -1px rgb(33, 30, 30);
 }
 
 .abautUs h4 {
@@ -101,15 +105,14 @@ body {
 }
 
 .nombre_yuma {
-    background-color: #8EAC50;
+    background-color: rgb(162, 197, 121, 0.7);
     border-radius: 15px;
     display: flex;
     overflow: hidden;
-    border: 2px solid #17594A;
+    border: 2px solid transparent;
     width: 425px;
     height: 560px;
     float: right;
-    top: 100px;
     flex-direction: column;
     justify-content: center;
     margin: 5px 0px 5px 5px;
@@ -125,8 +128,8 @@ body {
     font-size: 30px;
 }
 .nombre_yuma h2:hover {
-    color: black;
-    background-color: #D3D04F;
+    color: #016A70;
+    background-color: rgb(210, 222, 50, 0.5);
 }
 .nombre_yuma p {
     display: block;
