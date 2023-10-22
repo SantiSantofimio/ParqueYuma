@@ -76,6 +76,10 @@ body {
     margin: 3px;
 }
 
+.abautUs li {
+    color: #016A70;
+}
+
 .abautUs h1 {
     display: block;
     text-align: center;
