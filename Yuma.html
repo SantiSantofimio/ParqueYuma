@@ -9,36 +9,35 @@
 
 </head>
 <body>
-    <script src="./JS/Yuma.js"></script>
-
+  <header>
     <div class="navbar">
-        <a id="sect-home" href="#home">Inicio</a>
-        <a href="#news">Noticias</a>
-        <a href="#events">Eventos</a>
-        <a href="#contact">Contacto</a>
+      <a id="sect-home" href="#home">Inicio</a>
+      <a href="#news">Noticias</a>
+      <a href="#events">Eventos</a>
+      <a href="#contact">Contacto</a>
+    </div>
+
+    <div class="images">
+      <img class="img1" src="Images/image_yuma1.jpg"
+      alt="Imagen de la casa">
+      <img class="img2" src="Images/image_yuma2.jpg"
+      alt="Parte trasera de la casa">
+      <img class="img3" src="Images/image_yuma3.jpg"
+      alt="Portón">
+      <img class="img4" src="Images/frente.jpg"
+      alt="Parte trasera de la casa 2">
+      <img class="img5" src="Images/image_yuma5.jpg"
+      alt="Frente de la casa">
       </div>
 
-      <section>
-        <div class="images">
-        <img class="img1" src="Images/image_yuma1.jpg"
-        alt="Imagen de la casa">
-        <img class="img2" src="Images/image_yuma2.jpg"
-        alt="Parte trasera de la casa">
-        <img class="img3" src="Images/image_yuma3.jpg"
-        alt="Portón">
-        <img class="img4" src="Images/frente.jpg"
-        alt="Parte trasera de la casa 2">
-        <img class="img5" src="Images/image_yuma5.jpg"
-        alt="Frente de la casa">
-        </div>
-      </section>
+    <div class="navbar2">
+      <a id="sect-comidas" href="#eat">Comidas</a>
+      <a id="sect-bebidas" href="#drinks">Bebidas</a>
+      <a href="#rutas">Rutas</a>
+    </div>
+  </header>
 
-      <div class="navbar2">
-        <a id="sect-comidas" href="#eat">Comidas</a>
-        <a id="sect-bebidas" href="#drinks">Bebidas</a>
-        <a href="#rutas">Rutas</a>
-      </div>
-
+  <main>
     <section id="home">
       <div class="nombre_yuma">
         <a href="https://www.facebook.com/ParqueYuma"
@@ -82,15 +81,24 @@
         
           
           <h3>Nuestros Cultivos</h3>
-              <h4 class="aguacate">-Aguacate</h4>
-              <h4 class="uva">-Uva</h4>
-              <h4 class="limon">-Limón</h4>
-              <h4 class="platano">-Plátano</h4>
+            <ul>
+              <label for="cultivos">
+              <li class="aguacate">-Aguacate</li>
+              </label>
+              <label for="cultivos">
+              <li class="uva">-Uva</li>
+              </label>
+              <label for="cultivos">
+              <li class="limon">-Limón</li>
+              </label>
+              <label for="cultivos">
+              <li class="platano">-Plátano</li>
+              </label>
+            </ul>
           <p>Cada uno de estos cultivos es cuidadosamente atendido desde la semilla hasta la cosecha, 
             asegurando que cada fruta y vegetal que producimos sea de la más alta calidad.
           </p>
         
-          
         <a>
           <h3>Experencia Turística</h3>
           <p>
@@ -133,50 +141,55 @@
     <section id="comidas">
 
       <div class="eat">
-        <h2>Entradas</h2>
-        <label class="tarjeta-comidas" for="">
-          <p>-Ceviche de camarones</p>
-        </label>
-        <label class="tarjeta-comidas" for="">
-          <p>-Empanadas de carne</p>
-        </label>
-        <label class="tarjeta-comidas" for="">
-          <p>-Patacones con guacamole</p>
-        </label>
-        <label class="tarjeta-comidas" for="">
-          <p>-Nachos</p>
-        </label>
-
+          <h2>Entradas</h2>
+          <ul>
+            <label class="tarjeta-comidas" for="">
+              <li>Ceviche de camarones</li>
+            </label>
+            <label class="tarjeta-comidas" for="">
+              <li>Empanadas de carne</li>
+            </label>
+            <label class="tarjeta-comidas" for="">
+              <li>Patacones con guacamole</li>
+            </label>
+            <label class="tarjeta-comidas" for="">
+              <li>Nachos</li>
+            </label>
+          </ul>
        <h2>Menú principal</h2>
-       <label class="tarjeta-comidas" for="">
-        <p>-Sancocho</p>
-      </label>
-       <label class="tarjeta-comidas" for="">
-        <p>-Fideos</p>
-       </label>
-       <label class="tarjeta-comidas" for="">
-        <p>-Frijoles</p>
-       </label>
-       <label class="tarjeta-comidas" for="">
-        <p>-Garvanzos</p>
-       </label>
-
+       <ul>
+        <label class="tarjeta-comidas" for="">
+          <li>Sancocho</li>
+        </label>
+         <label class="tarjeta-comidas" for="">
+          <li>Fideos</li>
+         </label>
+         <label class="tarjeta-comidas" for="">
+          <li>Frijoles</li>
+         </label>
+         <label class="tarjeta-comidas" for="">
+          <li>Garvanzos</li>
+         </label>
+       </ul>
+       
        <h2>Platos fuertes</h2>
-       <label class="tarjeta-comidas" for="">
-        <p>-Carne a la mamona</p>
-      </label>
-       <label class="tarjeta-comidas" for="">
-        <p>-Asado huilense</p>
-      </label>
-       <label class="tarjeta-comidas" for="">
-        <p>-Chillona</p>
-      </label>
-       <label class="tarjeta-comidas" for="">
-        <p>-Gringa</p>
-      </label>
-       <label class="tarjeta-comidas" for="">
-        <p>-Muchacha</p>
-      </label>
+       <ul>
+        <label class="tarjeta-comidas" for="">
+          <li>Carne a la mamona</li>
+        </label>
+         <label class="tarjeta-comidas" for="">
+          <li>Asado huilense</li>
+        </label>
+         <label class="tarjeta-comidas" for="">
+          <li>Chillona</li>
+        </label>
+         <label class="tarjeta-comidas" for="">
+          <li>Gringa</li>
+        </label>
+         <label class="tarjeta-comidas" for="">
+          <li>Muchacha</li>
+        </label>
+       </ul>
       </div>
 
       <div class="carrusel-comidas">
@@ -203,28 +216,36 @@
     <section id="bebidas">
       
       <div class="drinks">
-        <h2>Bebidas</h2>
+          <h2>Bebidas</h2>
+          <ul>
         <label class="tarjeta-bebidas" for="">
-          <p>-Jugo de aguacate</p>
+          <li>Jugo de aguacate</li>
         </label>
         <label class="tarjeta-bebidas" for="">
-          <p>-Jugo de borojó</p>
+          <li>Jugo de borojó</li>
         </label>
         <label class="tarjeta-bebidas" for="">
-          <p>-Limonada</p>
+          <li>Limonada</li>
         </label>
         <label class="tarjeta-bebidas" for="">
-          <p>-Cerveza águila</p>
+          <li>Cerveza águila</li>
         </label>
         <label class="tarjeta-bebidas" for="">
-          <p>-Cerveza Poker</p>
+          <li>Cerveza Poker</li>
         </label>
         <label class="tarjeta-bebidas" for="">
-          <p>-Cerveza club colombia</p>
+          <li>Cerveza club colombia</li>
         </label>
       </div>
-      
+        </ul>
+        
     </section>
-      
+  </main>
+
+  <footer>
+    
+  </footer>
+
+  <script src="./JS/Yuma.js"></script>
 </body>
 </html>

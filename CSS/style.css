@@ -72,6 +72,10 @@ body {
     padding: 15px 20px;
 }
 
+.abautUs label {
+    margin: 3px;
+}
+
 .abautUs h1 {
     display: block;
     text-align: center;
