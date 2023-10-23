@@ -125,6 +125,11 @@ body {
     justify-content: center;
     margin: 5px 0px 5px 5px;
 }
+
+.nom-yuma {
+    text-decoration: none;
+}
+
 .nombre_yuma h2 {
     display: block;
     color: white;
