@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Paytone+One&family=Sintony&display=swap');
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: #FFFFDD;
     font-family: 'Sintony', sans-serif;
@@ -118,12 +124,11 @@ body {
     display: flex;
     overflow: hidden;
     border: 2px solid transparent;
-    width: 425px;
+    width: 30%;
     height: 560px;
     float: right;
     flex-direction: column;
     justify-content: center;
-    margin: 5px 0px 5px 5px;
 }
 
 .nom-yuma {
