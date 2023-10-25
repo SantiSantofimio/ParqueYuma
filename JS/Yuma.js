@@ -8,7 +8,6 @@ let clickBebidas = document.getElementById('sect-bebidas');
 
 Inicio = ()=> {
     sectionComidas.style.display = 'none';
-
     sectionBebidas.style.display = 'none';
 
     clickHome.addEventListener('click', seccionHome);
@@ -21,7 +20,7 @@ Inicio = ()=> {
 seccionHome = ()=> {
     sectionComidas.style.display = 'none';
     sectionBebidas.style.display = 'none';
-    sectionHome.style.display = 'flex';
+    sectionHome.style.display = 'block';
 }
 
 seccionComidas = ()=> {
