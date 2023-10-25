@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     background-color: #FFFFDD;
     font-family: 'Sintony', sans-serif;
@@ -16,6 +20,7 @@ body {
     overflow: hidden;
     border: 2px solid transparent;
     border-radius: 15px;
+    margin: 5px;
 }
 .navbar a {
     float: left;
@@ -24,10 +29,12 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 .navbar a:hover {
     color: black;
     background-color: rgb(210, 222, 50, 0.5);
+    font-size: 1.4rem;
 }
 
 .images {
@@ -45,18 +52,22 @@ body {
     overflow: hidden;
     border: 2px solid transparent;
     border-radius: 15px;
+    margin: 5px;
 }
 .navbar2 a {
     float: left;
     display: block;
     color: #016A70;
     text-align: center;
-    padding: 16px 18px;
+    padding: 14px 16px;
     text-decoration: wavy;
+    font-size: 1.2rem;
 }
+
 .navbar2 a:hover {
     background-color: rgb(210, 222, 50, 0.5);
     color: black;
+    font-size: 1.4rem;
 }
 
 .abautUs {
@@ -69,6 +80,7 @@ body {
     background-color: rgb(1, 106, 112, 0.3);
     margin: 10px;
     padding: 35px;
+    font-size: 1.4rem;
 }
 
 .abautUs p {
@@ -130,6 +142,7 @@ body {
     float: right;
     flex-direction: column;
     justify-content: center;
+    font-size: 1.4rem;
 }
 
 .nom-yuma {
