@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Paytone+One&family=Sintony&display=swap');
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 .eat {
     border: 3px solid transparent;
     display: flex;
@@ -7,8 +13,9 @@
     margin: 30px;
     flex-direction: column;
     align-items: flex-start;
-    width: 830px;
-    background-color: rgb(162, 197, 121, 0.7);
+    width: 70%;
+    background-color: rgb(1, 106, 112, 0.3);
+    padding: 40px;
 }
 
 .eat h2 {
@@ -32,9 +39,10 @@
     flex-direction: column;
     align-items: flex-start;
     margin: 30px;
+    padding: 30px;
     border-radius: 20px;
     width: 500px;
-    background-color: rgb(162, 197, 121, 0.7);
+    background-color: rgb(1, 106, 112, 0.3);
 }
 
 .drinks h2 {

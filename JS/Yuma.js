@@ -18,27 +18,23 @@ Inicio = ()=> {
     clickBebidas.addEventListener('click', seccionBebidas);
 }
 
-seccionComidas = ()=> {
-    sectionHome.style.display = 'none';
-
-    sectionBebidas.style.display = 'block';
-
-    sectionComidas.style.display = 'flex';
-}
-
 seccionHome = ()=> {
     sectionComidas.style.display = 'none';
     sectionBebidas.style.display = 'none';
-    seccionHome.style.display = 'flex';
+    sectionHome.style.display = 'flex';
+}
+
+seccionComidas = ()=> {
+    sectionHome.style.display = 'none';
+    sectionBebidas.style.display = 'flex';
+    sectionComidas.style.display = 'flex';
 }
 
 seccionBebidas = ()=> {
 
     sectionComidas.style.display = 'none';
-
-    seccionHome.style.display = 'none';
-
-    sectionBebidas.style.display = 'block';
+    sectionHome.style.display = 'none';
+    sectionBebidas.style.display = 'flex';
 }
 
 
