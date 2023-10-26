@@ -46,7 +46,8 @@ html {
     margin: 30px;
     padding: 30px;
     border-radius: 20px;
-    width: 500px;
+    width: 45%;
+    min-height: 380px;
     background-color: rgb(1, 106, 112, 0.3);
     font-size: 1.4rem;
 }

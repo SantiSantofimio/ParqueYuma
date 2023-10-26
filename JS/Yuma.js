@@ -9,19 +9,19 @@ let clickBebidas = document.getElementById('sect-bebidas');
 Inicio = ()=> {
     sectionComidas.style.display = 'none';
     sectionBebidas.style.display = 'none';
+    sectionHome.style.display = 'flex';
 
-    clickHome.addEventListener('click', seccionHome);
+    clickHome.addEventListener('click', Inicio);
 
     clickComidas.addEventListener('click', seccionComidas);
 
     clickBebidas.addEventListener('click', seccionBebidas);
 }
 
-seccionHome = ()=> {
-    sectionComidas.style.display = 'none';
-    sectionBebidas.style.display = 'none';
-    sectionHome.style.display = 'block';
-}
+// seccionHome = ()=> {
+//     sectionComidas.style.display = 'none';
+//     sectionBebidas.style.display = 'none';
+// }
 
 seccionComidas = ()=> {
     sectionHome.style.display = 'none';
