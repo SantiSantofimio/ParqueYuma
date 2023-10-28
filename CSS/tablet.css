@@ -1,3 +1,16 @@
+.navbar a {
+    padding: 5px 30px;
+}
+.logo {
+    margin-left: 10px;
+}
+.images {
+    justify-content: space-around;
+}
+.img1, .img2, .img3, .img4, .img5 {
+    width: 145px;
+    height: 125px;
+}
 .abautUs {
     width: 45%;
 }
@@ -13,7 +26,13 @@
     min-height: 500px;
     max-height: 560px;
 }
-.img1, .img2, .img3, .img4, .img5 {
-    width: 160px;
-    height: 125px;
+.sect-comidas {
+    flex-flow: nowrap row;
+    justify-content: space-between;
+}
+.eat {
+    width: 50%;
+}
+#carrusel-content {
+    height: 200px;
 }

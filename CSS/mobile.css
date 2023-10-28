@@ -15,8 +15,26 @@ body {
     font-family: 'Sintony', sans-serif;
 }
 
-.navbar {
+header {
+    position: sticky;
+    top: 0;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
     background-color: rgb(162, 197, 121, 0.3);
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.navbar {
+    display: flex;
     overflow: hidden;
     border: 2px solid transparent;
     border-radius: 15px;
@@ -27,7 +45,7 @@ body {
     display: block;
     color: #016A70;
     text-align: center;
-    padding: 14px 16px;
+    padding: 5px 2px;
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -38,10 +56,9 @@ body {
 }
 
 .images {
-    overflow: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    overflow-x: auto;
+    padding: 1.5rem;
     border: 3px solid transparent;
     border-radius: 10px;
 }
@@ -72,6 +89,7 @@ body {
 
 .sect-home {
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .abautUs {
@@ -178,12 +196,11 @@ body {
 }
 
 .images img {
-    overflow: auto;
     margin: 0;
     padding: 0;
 }
 .img1, .img2, .img3, .img4, .img5 {
-    width: 70px;
+    width: 95px;
     height: 85px;
     border-radius: 10px;
 }
@@ -207,6 +224,8 @@ body {
     text-align: right;
 }
 .imagenes{
+    display: flex;
+    overflow-x: auto;
     height: 200px;
     width: 45%;
     border-radius: 30px;
@@ -218,6 +237,198 @@ body {
     flex-direction: row;
     justify-content: space-around;
 }
+
+.sect-comidas {
+    flex-flow: wrap column;
+    justify-content: center;
+}
+
+.eat {
+    border: 3px solid transparent;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(1, 106, 112, 0.3);
+    padding: 40px;
+    font-size: 1.4rem;
+}
+
+.eat h2 {
+    color: white;
+    font-family: 'Autour One', cursive;
+    padding: 15px 35px;
+}
+
+.eat p {
+    color: #D3D04F;
+    padding: 0px 50px;
+}
+
+.eat label {
+    margin: 5px;
+}
+
+.drinks {
+    border: 3px solid transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    width: 100%;
+    min-height: 380px;
+    background-color: rgb(1, 106, 112, 0.3);
+    font-size: 1.4rem;
+}
+
+.drinks h2 {
+    color: white;
+    font-family: 'Autour One', cursive;
+    padding: 15px 35px;
+}
+
+.drinks label {
+    margin: 5px;
+}
+
+.drinks p {
+    color: #D3D04F;
+    padding: 0px 50px;
+}
+
+#carrusel-box {
+    -moz-animation: automatizacion 15s infinite linear;
+    -o-animation: automatizacion 15s infinite linear;
+    -webkit-animation: automatizacion 15s infinite linear;
+    animation: automatizacion 15s infinite linear;
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75s ease;
+    transition: all 0.75s ease;
+    height: 135px;
+    width: 400%;
+    display: flex;
+    align-items: center;
+}
+#carrusel-content {
+    margin: 60px auto;
+    overflow: hidden;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imagenes-comidas{
+    height: 130px;
+    width: 35%;
+    border-radius: 50px;
+}
+.carrusel-element {
+    float: left;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+@-moz-keyframes automatizacion {
+    0% {
+    margin-left: 0;
+    }
+    20% {
+        margin-left: 0;
+    }
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
+    50% {
+        margin-left: -200%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    75% {
+        margin-left: -300%;
+    }
+    
+    99% {
+        margin-left: -300%;
+    }
+    
+    100% {
+        margin-left: 0;
+    }
+}
+@-webkit-keyframes automatizacion {
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0;
+    }
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
+    50% {
+        margin-left: -200%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    75% {
+        margin-left: -300%;
+    }
+    
+    99% {
+        margin-left: -300%;
+    }
+    
+    100% {
+        margin-left: 0;
+    }
+}
+@keyframes automatizacion {
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0;
+    }
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
+    50% {
+        margin-left: -200%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    75% {
+        margin-left: -300%;
+    }
+    
+    99% {
+        margin-left: -300%;
+    }
+    
+    100% {
+        margin-left: 0;
+    }
+}
+
 @-moz-keyframes automatizacion {
     0% {
     margin-left: 0;
