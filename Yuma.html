@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YUMA</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/styleComidas.css">
-
+    <link rel="stylesheet" href="./CSS/mobile.css">
+    <link rel="stylesheet" href="./CSS/styleComidasMobile.css">
+    <link rel="stylesheet" href="./CSS/tablet.css" media="screen and (min-width: 600px)">
 </head>
 <body>
   <header>
@@ -40,14 +40,14 @@
   <main>
     <section class="sect-home" id="home">
       <div class="abautUs">
-
-        <h1>Bienvenidos a Nuestra Finca Yuma</h1>
-  
+        <div class="title-abautUs">
+          <h1>Bienvenidos a Nuestra Finca Yuma</h1>
+        </div>
+        
         <h3>¿Quiénes Somos?</h3>
         <p>Somos los orgullosos propietarios de una hermosa finca ubicada en Tarqui el Ruiseñor del Huila. 
           Nuestra pasión es cultivar y compartir los sabores y experiencias únicas que nuestra tierra tiene para ofrecer.</p>
         
-          
           <h3>Nuestros Cultivos</h3>
             <ul>
               <label for="cultivos">
@@ -136,7 +136,7 @@
       </div>
     </section>
 
-    <section id="comidas">
+    <section class="sect-comidas" id="comidas">
 
       <div class="eat">
           <h2>Entradas</h2>
@@ -190,7 +190,6 @@
        </ul>
       </div>
 
-      <div class="carrusel-comidas">
         <div id="carrusel-content">
           <div id="carrusel-box">
               <div class="carrusel-element">
@@ -207,7 +206,6 @@
             </div>
           </div>
       </div>
-      </div>
 
     </section>
 
@@ -216,26 +214,26 @@
       <div class="drinks">
           <h2>Bebidas</h2>
           <ul>
-        <label class="tarjeta-bebidas" for="">
-          <li>Jugo de aguacate</li>
-        </label>
-        <label class="tarjeta-bebidas" for="">
-          <li>Jugo de borojó</li>
-        </label>
-        <label class="tarjeta-bebidas" for="">
-          <li>Limonada</li>
-        </label>
-        <label class="tarjeta-bebidas" for="">
-          <li>Cerveza águila</li>
-        </label>
-        <label class="tarjeta-bebidas" for="">
-          <li>Cerveza Poker</li>
-        </label>
-        <label class="tarjeta-bebidas" for="">
-          <li>Cerveza club colombia</li>
-        </label>
+            <label class="tarjeta-bebidas" for="">
+              <li>Jugo de aguacate</li>
+            </label>
+            <label class="tarjeta-bebidas" for="">
+              <li>Jugo de borojó</li>
+            </label>
+            <label class="tarjeta-bebidas" for="">
+              <li>Limonada</li>
+            </label>
+            <label class="tarjeta-bebidas" for="">
+              <li>Cerveza águila</li>
+            </label>
+            <label class="tarjeta-bebidas" for="">
+              <li>Cerveza Poker</li>
+            </label>
+            <label class="tarjeta-bebidas" for="">
+              <li>Cerveza club colombia</li>
+            </label>
+          </ul>
       </div>
-        </ul>
         
     </section>
   </main>
